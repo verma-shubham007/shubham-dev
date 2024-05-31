@@ -11,10 +11,9 @@ const About = () => {
     useEffect(() => {
         const calculateDifferenceInYears = () => {
             const today = new Date();
-            const past = new Date("01-06-2017");
+            const past = new Date("2017-06-01");
             let yearsDiff = today.getFullYear() - past.getFullYear();
 
-            // Adjust if the past date hasn't occurred yet this year
             const m = today.getMonth() - past.getMonth();
             if (m < 0 || (m === 0 && today.getDate() < past.getDate())) {
                 yearsDiff--;
