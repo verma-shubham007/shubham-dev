@@ -1,10 +1,32 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import icDesign from "../../../assets/images/icon-design.svg";
 import icDev from "../../../assets/images/icon-dev.svg";
 import icApp from "../../../assets/images/icon-app.svg";
 import icPhoto from "../../../assets/images/icon-photo.svg";
 
 const About = () => {
+
+    const [yearsDifference, setYearsDifference] = useState(0);
+
+    useEffect(() => {
+        const calculateDifferenceInYears = () => {
+            const today = new Date();
+            const past = new Date("01-06-2017");
+            let yearsDiff = today.getFullYear() - past.getFullYear();
+
+            // Adjust if the past date hasn't occurred yet this year
+            const m = today.getMonth() - past.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < past.getDate())) {
+                yearsDiff--;
+            }
+
+            setYearsDifference(yearsDiff);
+        };
+
+        calculateDifferenceInYears();
+    }, []);
+
+
     return (
         <article className="about active" data-page="about">
 
@@ -14,17 +36,11 @@ const About = () => {
 
             <section className="about-text">
                 <p>
-                    I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-                    I enjoy
-                    turning complex problems into simple, beautiful and intuitive designs.
+                    As a seasoned Technical Lead with {yearsDifference} years of experience in full-stack development, I excel in delivering robust, scalable solutions. Currently at Jarvis Technology, I drive project success with a focus on backend solutions and timely feature delivery. My diverse expertise spans NodeJs, ReactJs, Ruby on Rails, and more, honed through impactful roles at Times of India Group, CaaStle, and Iron Systems.
                 </p>
 
                 <p>
-                    My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-                    Moreover, I
-                    add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-                    across your
-                    message and identity in the most creative way. I created web design for many famous brand companies.
+                    My leadership in agile workflows, problem resolution, and technical analysis ensures exceptional client satisfaction and continuous operational improvement. I am adept at working closely with software development and testing teams to design, develop, and implement solutions that meet stringent functionality, scalability, and performance requirements. My technical acumen and commitment to excellence make me a valuable asset to any team.
                 </p>
             </section>
 
