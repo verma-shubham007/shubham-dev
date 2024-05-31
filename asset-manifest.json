@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/shubham-dev/static/css/main.a96c1e65.css",
+    "main.js": "/shubham-dev/static/js/main.ce07f0fa.js",
+    "static/media/my-avatar.jpeg": "/shubham-dev/static/media/my-avatar.9b6d1f4efb8f3961df41.jpeg",
+    "static/media/icon-dev.svg": "/shubham-dev/static/media/icon-dev.2a51ebae3899ae5ab67adf9875f02393.svg",
+    "static/media/icon-design.svg": "/shubham-dev/static/media/icon-design.d6326a90fb3a6e270b2fbf68c58759cb.svg",
+    "static/media/icon-photo.svg": "/shubham-dev/static/media/icon-photo.2ee37973203f92ec6ac727ea564aee17.svg",
+    "static/media/icon-app.svg": "/shubham-dev/static/media/icon-app.db860430683b57c1968ad231a13af0bf.svg",
+    "index.html": "/shubham-dev/index.html",
+    "main.a96c1e65.css.map": "/shubham-dev/static/css/main.a96c1e65.css.map",
+    "main.ce07f0fa.js.map": "/shubham-dev/static/js/main.ce07f0fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a96c1e65.css",
+    "static/js/main.ce07f0fa.js"
+  ]
+}
