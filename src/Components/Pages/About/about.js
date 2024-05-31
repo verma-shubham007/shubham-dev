@@ -59,7 +59,7 @@ const About = () => {
                             <h4 className="h4 service-item-title">Web design</h4>
 
                             <p className="service-item-text">
-                                The most modern and high-quality design made at a professional level.
+                                Full-stack web design expert with a focus on agile workflows, scalable solutions, and client satisfaction.
                             </p>
                         </div>
 
@@ -75,7 +75,7 @@ const About = () => {
                             <h4 className="h4 service-item-title">Web development</h4>
 
                             <p className="service-item-text">
-                                High-quality development of sites at the professional level.
+                                Expert in Node.js, React.js, Angular, Ruby on Rails, PostgreSQL, MongoDB.
                             </p>
                         </div>
 
@@ -88,10 +88,10 @@ const About = () => {
                         </div>
 
                         <div className="service-content-box">
-                            <h4 className="h4 service-item-title">Mobile apps</h4>
+                            <h4 className="h4 service-item-title">Team Management</h4>
 
                             <p className="service-item-text">
-                                Professional development of applications for iOS and Android.
+                                Lead managing teams of 20, ensuring agile success.
                             </p>
                         </div>
 
@@ -104,10 +104,10 @@ const About = () => {
                         </div>
 
                         <div className="service-content-box">
-                            <h4 className="h4 service-item-title">Photography</h4>
+                            <h4 className="h4 service-item-title">Technical Architecture</h4>
 
                             <p className="service-item-text">
-                                I make high-quality photos of any category at a professional level.
+                                Expert in database structuring and planning for optimal performance.
                             </p>
                         </div>
 
