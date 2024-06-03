@@ -1,4 +1,6 @@
 import myAvatar from "../../assets/images/my-avatar.jpeg";
+import myAvatar1 from "../../assets/images/my-avatar1.png";
+import myAvatar2 from "../../assets/images/my-avatar2.png";
 const Sidebar = () => {
     return (
         <aside className="sidebar active">
@@ -6,7 +8,7 @@ const Sidebar = () => {
         <div className="sidebar-info">
 
             <figure className="avatar-box">
-                <img src={myAvatar} alt="Shubham Verma" width="80" />
+                <img src={myAvatar1} alt="Shubham Verma" width="80" />
             </figure>
 
             <div className="info-content">
@@ -91,21 +93,21 @@ const Sidebar = () => {
 
             <ul className="social-list">
 
-                <li className="social-item">
-                    <a href="#" className="social-link">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                </li>
+                {/*<li className="social-item">*/}
+                {/*    <a href="#" className="social-link">*/}
+                {/*        <ion-icon name="logo-facebook"></ion-icon>*/}
+                {/*    </a>*/}
+                {/*</li>*/}
+
+                {/*<li className="social-item">*/}
+                {/*    <a href="#" className="social-link">*/}
+                {/*        <ion-icon name="logo-twitter"></ion-icon>*/}
+                {/*    </a>*/}
+                {/*</li>*/}
 
                 <li className="social-item">
-                    <a href="#" className="social-link">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                </li>
-
-                <li className="social-item">
-                    <a href="#" className="social-link">
-                        <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="https://www.linkedin.com/in/shubham-verma-9bb147131/" target="_blank" className="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
                 </li>
 
