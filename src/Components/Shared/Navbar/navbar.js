@@ -17,13 +17,13 @@ const Navbar = () => {
                     <button className={`navbar-link ${location.pathname === '/resume' ? 'active' : ''}`} onClick={() => navigate("/resume")}>Resume</button>
                 </li>
 
-                <li className="navbar-item">
+                {/* <li className="navbar-item">
                     <button className={`navbar-link ${location.pathname === '/portfolio' ? 'active' : ''}`} onClick={() => navigate("/portfolio")}>Portfolio</button>
                 </li>
 
                 <li className="navbar-item">
                     <button className={`navbar-link ${location.pathname === '/blog' ? 'active' : ''}`} onClick={() => navigate("/blog")}>Blog</button>
-                </li>
+                </li> */}
 
                 <li className="navbar-item">
                     <button className={`navbar-link ${location.pathname === '/contact' ? 'active' : ''}`} onClick={() => navigate("/contact")}>Contact</button>

@@ -68,7 +68,7 @@ const Resume = () => {
 
                             <span>{experience.startDate} — {experience.endDate}</span>
 
-                            <p className="timeline-text">
+                            <p className={`timeline-text ${experience.description.includes("Times of India Group") ? "special-content" : ""}`}>
                                 {experience.description}
                             </p>
 

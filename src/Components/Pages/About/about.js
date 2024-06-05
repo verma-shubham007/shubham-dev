@@ -35,7 +35,7 @@ const About = () => {
 
             <section className="about-text">
                 <p>
-                    As a seasoned Technical Lead with {yearsDifference} years of experience in full-stack development, I excel in delivering robust, scalable solutions. Currently at Jarvis Technology, I drive project success with a focus on backend solutions and timely feature delivery. My diverse expertise spans NodeJs, ReactJs, Ruby on Rails, and more, honed through impactful roles at Times of India Group, CaaStle, and Iron Systems.
+                    As a seasoned Technical Lead with <b>{yearsDifference} years of experience in full-stack</b> development, I excel in delivering robust, scalable solutions. Currently at Jarvis Technology, I drive project success with a focus on backend solutions and timely feature delivery. My diverse expertise spans <b>NodeJs, ReactJs, Angular, Ruby on Rails, and more</b>, honed through impactful roles at <div className="special-content">Times of India Group</div>, CaaStle, and Iron Systems.
                 </p>
 
                 <p>
@@ -117,7 +117,7 @@ const About = () => {
 
             </section>
 
-            <section className="testimonials">
+            {/* <section className="testimonials">
 
                 <h3 className="h3 testimonials-title">Testimonials</h3>
 
@@ -127,7 +127,7 @@ const About = () => {
                         <div className="content-card" data-testimonials-item>
 
                             <figure className="testimonials-avatar-box">
-                                {/*<img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>*/}
+                                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                             </figure>
 
                             <h4 className="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
@@ -149,7 +149,7 @@ const About = () => {
                         <div className="content-card" data-testimonials-item>
 
                             <figure className="testimonials-avatar-box">
-                                {/*<img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>*/}
+                                <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
                             </figure>
 
                             <h4 className="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
@@ -171,7 +171,7 @@ const About = () => {
                         <div className="content-card" data-testimonials-item>
 
                             <figure className="testimonials-avatar-box">
-                                {/*<img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>*/}
+                                <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
                             </figure>
 
                             <h4 className="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
@@ -193,7 +193,7 @@ const About = () => {
                         <div className="content-card" data-testimonials-item>
 
                             <figure className="testimonials-avatar-box">
-                                {/*<img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>*/}
+                                <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
                             </figure>
 
                             <h4 className="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
@@ -228,10 +228,10 @@ const About = () => {
 
                     <div className="modal-img-wrapper">
                         <figure className="modal-avatar-box">
-                            {/*<img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>*/}
+                            <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
                         </figure>
 
-                        {/*<img src="./assets/images/icon-quote.svg" alt="quote icon">*/}
+                        <img src="./assets/images/icon-quote.svg" alt="quote icon">
                     </div>
 
                     <div className="modal-content">
@@ -265,43 +265,43 @@ const About = () => {
 
                     <li className="clients-item">
                         <a href="#">
-                            {/*<img src="./assets/images/logo-1-color.png" alt="client logo">*/}
+                            <img src="./assets/images/logo-1-color.png" alt="client logo">
                         </a>
                     </li>
 
                     <li className="clients-item">
                         <a href="#">
-                            {/*<img src="./assets/images/logo-2-color.png" alt="client logo">*/}
+                            <img src="./assets/images/logo-2-color.png" alt="client logo">
                         </a>
                     </li>
 
                     <li className="clients-item">
                         <a href="#">
-                            {/*<img src="./assets/images/logo-3-color.png" alt="client logo">*/}
+                            <img src="./assets/images/logo-3-color.png" alt="client logo">
                         </a>
                     </li>
 
                     <li className="clients-item">
                         <a href="#">
-                            {/*<img src="./assets/images/logo-4-color.png" alt="client logo">*/}
+                            <img src="./assets/images/logo-4-color.png" alt="client logo">
                         </a>
                     </li>
 
                     <li className="clients-item">
                         <a href="#">
-                            {/*<img src="./assets/images/logo-5-color.png" alt="client logo">*/}
+                            <img src="./assets/images/logo-5-color.png" alt="client logo">
                         </a>
                     </li>
 
                     <li className="clients-item">
                         <a href="#">
-                            {/*<img src="./assets/images/logo-6-color.png" alt="client logo">*/}
+                            <img src="./assets/images/logo-6-color.png" alt="client logo">
                         </a>
                     </li>
 
                 </ul>
 
-            </section>
+            </section> */}
 
         </article>
     );
