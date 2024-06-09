@@ -1,5 +1,6 @@
 import React from "react";
 import {experiences, skills, tech_stacks} from "./resume-data";
+import resumePdf from "./../../../assets/resume.pdf";
 
 const Resume = () => {
 
@@ -12,13 +13,26 @@ const Resume = () => {
             name: "Tech Stack",
             data: tech_stacks
         }
-    ]
+    ];
+
+    const downloadFile = () => {
+        const link = document.createElement('a');
+        link.href = resumePdf;
+        link.download = 'Shubham Verma Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
 
     return (
         <article className="resume active" data-page="resume">
 
             <header>
                 <h2 className="h2 article-title">Resume</h2>
+                <button className="form-btn" type="button" onClick={downloadFile}>
+                        <ion-icon name="download-outline"></ion-icon>
+                        <span>Download Resume</span>
+                    </button>
             </header>
 
             <section className="timeline">
